@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    margin: 50px;
+	background-color: darkseagreen;
+	
+}
+#zadatak1 h1{
+	color: darkgreen;
+	font-style: italic;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 300px;
+	font-size: 30px;
+}
+
+#zadatak1 h1, #zadatak1 table {
+    width: 400px;
+	
+}
+
+#zadatak1 table {
+    border-collapse: collapse;
+}
+
+#zadatak1 th {
+    font-size: 18px;
+    background-color:rgba(77,126,62,1.00);
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    height: 30px;
+}
+
+#zadatak1 td {
+    border: 0.5px solid#3B5B35;
+	
+	
+}
+#naziv {
+	font-family: 'Amatic SC';
+	color: darkgreen;
+	font-weight: bold;
+}
+
+#sredina{
+	text-align: center;
+	font-style: italic;
+}
+
+#sredina2{
+	text-align: center;
+	font-style: italic;
+	
+}
+
+#zadatak1 table {
+    background-color: floralwhite;
+}
+
+#varijacija{
+	background-color: gainsboro;
+	font-weight: bold
+}
+
+#varijacija2{
+	font-weight: bold;
+	background-color: gainsboro;
+}
+
+/*-------------------------------------------------------------*/
+
+#zadatak2 table{
+	
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: #32522A;
+    box-sizing:content-box;
+	border-style:  solid dotted ;
+	border-color: black darkgreen;
+	padding-top: 10px;
+	
+	
+}
+	
+#bijeli {
+    background-color: #94AD93;
+    border-radius: 50px 0px 0px 50px;
+	
+}
+
+#sivi {
+    background-color: darkgreen;
+    
+}
+
+#bez{
+	   background-color: #D5E9D1;
+    border-radius: 0px  50px 50px 0px;
+	
+}
+
+
+/*----------------------------------------------------------------*/
+
+#zadatak3 p{
+	font-style: normal;
+	text-align: justify;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	width: 370px;
+	padding-left: 30px;
+}
+
+#zadatak3 li a{
+	color: black;
+    font-family: Times new Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 15px;
+    
+    text-decoration: none;
+}
+
+#zadatak3 li:nth-child(2) a:hover {
+    font-weight: bold;
+}
+
+
+#zadatak3 li:nth-child(3) a:hover {
+    background-color: rgba(77,126,62,1.00);
+}
+
+#zadatak3 li:nth-child(1) a:hover {
+    text-decoration:overline underline;
+}
+
+#zadatak3 h2{
+	font-style:oblique;
+	color: floralwhite;
+}
+
+
+
+
+
+
